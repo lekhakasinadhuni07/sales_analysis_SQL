@@ -4,7 +4,7 @@
 The objective of this project is to delve into the Walmart Sales data, analyzing top-performing branches and products, examining the sales trends of various products, and understanding customer behavior. The goal is to explore opportunities for enhancing and optimizing sales strategies. The dataset utilized in this analysis was sourced from the Kaggle Walmart Sales Forecasting Competition.
 
 ## Key Findings & Takeaways for Top Management for the below mentioned analysis:
-### 1. Top-Performing Product Lines & Revenue Contribution**
+### 1. Top-Performing Product Lines & Revenue Contribution
 - **Top-Performing Product Lines with the largest revenue?** Helps top management focus on what’s driving the most revenue. This insight informs decisions around inventory, marketing, and promotions.
 
   **Fashion Accessories** is the top performing product line followed by **Food & Beverages** and **Electronic Accessories**, where as **Food & Beverages** drives the **largest revenue**.
