@@ -2,6 +2,39 @@
 
 ## Objective
 The objective of this project is to delve into the Walmart Sales data, analyzing top-performing branches and products, examining the sales trends of various products, and understanding customer behavior. The goal is to explore opportunities for enhancing and optimizing sales strategies. The dataset utilized in this analysis was sourced from the Kaggle Walmart Sales Forecasting Competition.
+
+## Key Findings & Takeaways for Top Management for the below mentioned analysis:
+### 1. Top-Performing Product Lines & Revenue Contribution**
+- **Top-Performing Product Lines with the largest revenue?** Helps top management focus on what’s driving the most revenue. This insight informs decisions around inventory, marketing, and promotions.
+
+  **Fashion Accessories** is the top performing product line followed by **Food & Beverages** and **Electronic Accessories**, where as **Food & Beverages** drives the **largest revenue**.
+-  **What product line had the largest VAT?** Highlights the product lines with the highest tax burden, which could inform pricing strategies or cost optimization efforts.
+
+   **Home & lifestyle** has the largest VAT average of **16.03%**
+### 2. Revenue Insights by Time Period
+- **What is the total revenue & largest COGS by month?**
+
+  **January** month had the largest revenue of **1,16,291** and largest COGS of **1,10,754**. Management can plan budgeting, resource allocation, and promotional planning for the month of
+     january for increase in sales.
+### 3. Customer Segmentation Insights
+
+- **Which customer type brings the most revenue?**
+**Female** is the most valuable customer type and the management must tailor marketing efforts and loyalty programs for the most valuable customers.
+### 4. Branch/Location Performance
+
+- **What is the city with the largest revenue?**
+  City **Naypyitaw** brings in the largest revenue with **1,10,490** followed by **Yangon** with **1,05,861** and **Mandalay** with **1,04,534**. Management must allow better resource allocation, targeted promotions, and stocking strategies for these locations with the highest potential.
+### 5. Financial Forecasting and Tax Strategy
+
+- **What is the most common payment method?**
+  **Cash payment** is the most common payment method. Understanding the most commonly used payment method can help optimize payment processing and reduce associated transaction costs.
+
+## Takeaways:
+- **Revenue Drivers:** Understanding the most profitable product lines, customer types, and regions.
+- **Operational Efficiency:** Insights on COGS, VAT, and sales trends that highlight areas to optimize costs.
+- **Customer Satisfaction:** Focus on ratings and feedback to improve products and services, with a focus on customer segments and peak periods.
+- **Strategic Resource Allocation:** Data on time-of-day, city, and branch performance guides better allocation of resources and marketing efforts.
+
 ## Project Structure
 - **Database Creation:** Created a database named WalmartSalesData.
 - **Table Creation:** Created tables for Sales.
@@ -325,35 +358,4 @@ WHERE branch = "A"
 GROUP BY day_name
 ORDER BY avg_rtg DESC; 
 ```
-## Findings
-### 1. Top-Performing Product Lines & Revenue Contribution**
-- **Top-Performing Product Lines with the largest revenue?** Helps top management focus on what’s driving the most revenue. This insight informs decisions around inventory, marketing, and promotions.
-
-  **Fashion Accessories** is the top performing product line followed by **Food & Beverages** and **Electronic Accessories**, where as **Food & Beverages** drives the **largest revenue**.
--  **What product line had the largest VAT?** Highlights the product lines with the highest tax burden, which could inform pricing strategies or cost optimization efforts.
-
-   **Home & lifestyle** has the largest VAT average of **16.03%**
-### 2. Revenue Insights by Time Period
-- **What is the total revenue & largest COGS by month?**
-
-  **January** month had the largest revenue of **1,16,291** and largest COGS of **1,10,754**. Management can plan budgeting, resource allocation, and promotional planning for the month of
-     january for increase in sales.
-### 3. Customer Segmentation Insights
-
-- **Which customer type brings the most revenue?**
-**Female** is the most valuable customer type and the management must tailor marketing efforts and loyalty programs for the most valuable customers.
-### 4. Branch/Location Performance
-
-- **What is the city with the largest revenue?**
-  City **Naypyitaw** brings in the largest revenue with **1,10,490** followed by **Yangon** with **1,05,861** and **Mandalay** with **1,04,534**. Management must allow better resource allocation, targeted promotions, and stocking strategies for these locations with the highest potential.
-### 5. Financial Forecasting and Tax Strategy
-
-- **What is the most common payment method?**
-  **Cash payment** is the most common payment method. Understanding the most commonly used payment method can help optimize payment processing and reduce associated transaction costs.
-
-## Key Takeaways for Top Management:
-- **Revenue Drivers:** Understanding the most profitable product lines, customer types, and regions.
-- **Operational Efficiency:** Insights on COGS, VAT, and sales trends that highlight areas to optimize costs.
-- **Customer Satisfaction:** Focus on ratings and feedback to improve products and services, with a focus on customer segments and peak periods.
-- **Strategic Resource Allocation:** Data on time-of-day, city, and branch performance guides better allocation of resources and marketing efforts.
   
