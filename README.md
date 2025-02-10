@@ -1,33 +1,52 @@
-# Walmart Sales Analysis using SQL
+# 📊 Walmart Sales Analysis using SQL
 
-## Objective
-The objective of this project is to delve into the Walmart Sales data, analyzing top-performing branches and products, examining the sales trends of various products, and understanding customer behavior. The goal is to explore opportunities for enhancing and optimizing sales strategies. The dataset utilized in this analysis was sourced from the Kaggle Walmart Sales Forecasting Competition.
+## 🚀 Project Overview
+This project is to delve into the Walmart Sales data, analyzing top-performing branches and products, examining the sales trends of various products, and understanding customer behavior. The goal is to explore opportunities for enhancing and optimizing sales strategies. 
+
+## 📂 Dataset
+- The dataset utilized in this analysis was sourced from the Kaggle Walmart Sales Forecasting Competition.
+- Contains **sales transactions** with fields like `branch`, `city`, `customer_type`, `product_line`, `total_revenue`, `VAT`, `payment_method`, etc.
+
+## 🛠️ SQL Techniques Used
+✅ **Data Cleaning** (NULL handling, deduplication)  
+✅ **Aggregation & Grouping** (`SUM`, `AVG`, `COUNT`)  
+✅ **Joins & Subqueries** (`INNER JOIN`, `LEFT JOIN`)  
+✅ **Window Functions** (`RANK()`, `DENSE_RANK()`, `ROW_NUMBER()`)  
+✅ **CTEs & Views** (`WITH` clause)  
+✅ **Time Series Analysis** (`DATE_FORMAT`, `MONTH()`, `YEAR()`)  
 
 ## Key Findings & Recommendations for Top Management for the below mentioned analysis:
-### 1. Top-Performing Product Lines & Revenue Contribution
-- **Top-Performing Product Lines with the largest revenue?** Helps top management focus on what’s driving the most revenue. This insight informs decisions around inventory, marketing, and promotions.
+### 📌 Top-Performing Product Lines & Revenue Contribution
+- **Top-Performing Product Lines with the largest revenue?** 
 
   **Fashion Accessories** is the top performing product line followed by **Food & Beverages** and **Electronic Accessories**, where as **Food & Beverages** drives the **largest revenue**.
--  **What product line had the largest VAT?** Highlights the product lines with the highest tax burden, which could inform pricing strategies or cost optimization efforts.
+  
+-  **What product line had the largest VAT?**
 
    **Home & lifestyle** has the largest VAT average of **16.03%**
-### 2. Revenue Insights by Time Period
+   
+### 📌 Revenue Insights by Time Period
 - **What is the total revenue & largest COGS by month?**
 
   **January** month had the largest revenue of **1,16,291** and largest COGS of **1,10,754**. Management can plan budgeting, resource allocation, and promotional planning for the month of
      january for increase in sales.
-### 3. Customer Segmentation Insights
+### 📌 Customer Segmentation Insights
 
 - **Which customer type brings the most revenue?**
-**Female** is the most valuable customer type and the management must tailor marketing efforts and loyalty programs for the most valuable customers.
-### 4. Branch/Location Performance
+
+  **Female** is the most valuable customer type and the management must tailor marketing efforts and loyalty programs for the most valuable customers.
+
+### 📌 Branch/Location Performance
 
 - **What is the city with the largest revenue?**
+
   City **Naypyitaw** brings in the largest revenue with **1,10,490** followed by **Yangon** with **1,05,861** and **Mandalay** with **1,04,534**. Management must allow better resource allocation, targeted promotions, and stocking strategies for these locations with the highest potential.
-### 5. Financial Forecasting and Tax Strategy
+
+### 📌 Financial Forecasting and Tax Strategy
 
 - **What is the most common payment method?**
-  **Cash payment** is the most common payment method. Understanding the most commonly used payment method can help optimize payment processing and reduce associated transaction costs.
+
+   **Cash payment** is the most common payment method. Understanding the most commonly used payment method can help optimize payment processing and reduce associated transaction costs.
 
 ## Final Recommendations for Walmart’s Strategy:
 ### ✅ Revenue Growth & Product Strategy
@@ -46,7 +65,7 @@ The objective of this project is to delve into the Walmart Sales data, analyzing
 
 By leveraging these insights, Walmart can enhance profitability, improve customer satisfaction, and drive sustainable business growth. 🚀
 
-## Project Structure
+## 📜 SQL Queries
 - **Database Creation:** Created a database named WalmartSalesData.
 - **Table Creation:** Created tables for Sales.
 ```sql
